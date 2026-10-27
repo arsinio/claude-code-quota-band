@@ -1,0 +1,9 @@
+{
+  "name": "quota-band",
+  "version": "0.1.0",
+  "description": "Shows 5-hour and 7-day quota usage with pace markers above the prompt",
+  "author": { "name": "Christopher Armenio" },
+  "license": "MIT",
+  "repository": "https://github.com/arsinio/claude-code-quota-band",
+  "types": "./types/index.d.ts"
+}

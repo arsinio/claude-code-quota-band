@@ -1,0 +1,6 @@
+{
+  "name": "quota-band",
+  "description": "Claude Code quota usage bars above the prompt",
+  "owner": { "name": "Christopher Armenio" },
+  "plugins": [{ "name": "quota-band", "source": "./" }]
+}
