@@ -6,14 +6,17 @@ see at a glance whether you're spending faster than the window refills.
 
 ## What it looks like
 
+![quota-band above the prompt in the Claude Code desktop app](docs/images/desktop.png)
+
+In a terminal, the same row is drawn with block characters:
+
 ```
 5h ████░░░░░│░░░░░░░░░░░░░░░░░░░░  13%  ↻3h28m    7d █░│░░░░░░░░░░░░░░░░░░░░░░░░░░░   2%  ↻6d7h
 ```
 
-- **Bar**: how much of the limit you've used. In the desktop app it's drawn as
-  a slim pill with a hover tooltip.
-- **`│` pace marker**: how far through the window you are in time. Fill past the
-  marker means you're ahead of pace.
+- **Bar**: how much of the limit you've used. On desktop, hover it for details.
+- **Pace marker**: the white tick (`│` in a terminal) shows how far through the
+  window you are in time. Fill past the marker means you're ahead of pace.
 - **`↻`**: time until the window resets.
 - **Color**: green on pace, yellow when more than 5 points ahead, red when more
   than 15 points ahead or at 90% used.
